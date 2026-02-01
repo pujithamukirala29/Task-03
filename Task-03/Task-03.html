@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>
+            python quiz
+        </title>
+        </head>
+        <link rel="stylesheet" href="Task-03.css">
+        <script src="Task-03.js"></script>
+
+            <body>
+                <center>
+                <main>
+                <h1>PYTHON </h1>
+                <form id="quizform">
+                <u><h2>Quiz Form</h2></u>
+                <input type="text" id="name" size="50" placeholder="Enter The Name"><br><br>
+                <input type="email" id="email" size="50" placeholder="Enter The Email"><br><br>
+                <button type="submit">Submit</button><br><br>
+                <p id="formMsg"></p><hr>
+                </form>
+
+                <u><h2>Quiz On Python</h2></u>
+                <p id="question"></p>
+                <h4>1.what is correct syntax to output "Hello World" in python?</h4>
+                <button class="code" onclick="checkAnswer('a')">print("Hello World")</button><br><br>
+                <button class="style" onclick="checkAnswer('b')">echo("Hello World")</button>
+                <p id="Quizresult"></p>
+
+                <p id="text"></p>
+                <h4>2.How do you insert COMMENTS in python code?</h4>
+                <button class="world" onclick="checkAnswer('a')"># This is a comment</button><br><br>
+                <button class="text" onclick="checkAnswer('b')">/*This is a comment*/</button><br><br>
+                <p id="result"></p><hr>
+
+                <u><h2>Random Joke(API)</h2></u>
+                <u><button  onclick="getJoke()" class="answer">Get Joke</button></u><br><br>
+                <p id="joke"></p>
+                <hr>
+                <u><h2>Python Courses</h2></u>
+                <select onchange="filterProducts(this.value)" class="option">
+    <option value="all">All</option>
+    <option value="low">Low courses</option>
+    <option value="high">High courses</option>
+  </select>
+
+    <div id="products">
+    <div class="product" data-price="low">courses ₹5000</div>
+    <div class="product" data-price="high">courses ₹10000</div>
+  </div>
+  </main>
+
+                    </body>
+                </center>
+</html>

@@ -1,0 +1,80 @@
+body{
+    background-color:azure;
+}
+h1{
+    background-color: black;
+    color: white;
+    width:600px;
+    height:50;
+
+}
+button{
+    background-color:#32ba32;
+    color:black;
+    height:20px;
+    width:60px;
+    cursor:pointer;
+}
+main{
+    background-color: darkolivegreen;
+    width:600px;
+    height:1000px;
+}
+.code{
+    background-color:lightblue;
+    color:black;
+    height:20px;
+    width:350px;
+    cursor:pointer;
+
+}
+.style{
+    background-color:lightblue;
+    color:black;
+    height:20px;
+    width:350px;
+    cursor:pointer;
+
+}
+.world{
+    background-color:lightblue;
+    color:black;
+    height:20px;
+    width:350px;
+    cursor:pointer;
+}
+.text{
+    background-color:lightblue;
+    color:black;
+    height:20px;
+    width:350px;
+    cursor:pointer;
+}
+.answer{
+    background-color:lightblue;
+    color:black;
+    height:20px;
+    width:350px;
+    cursor:pointer;
+}
+.joke{
+    background-color: lightblue;
+    color:black;
+    height:20px;
+    width:350px;
+    cursor:pointer;
+}
+
+.java{
+    background-color: lightblue;
+    height:20px;
+    width:350;
+}
+.option{
+    width:350px;
+    height:20px;
+    text-align: center;
+    background-color: lightblue;
+
+}
+
